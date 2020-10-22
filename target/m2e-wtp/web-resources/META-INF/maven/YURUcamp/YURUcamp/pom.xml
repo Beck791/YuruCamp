@@ -70,7 +70,7 @@
 
 		<dependency>
 			<groupId>org.springframework</groupId>
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD>>>>>>>> -->
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
@@ -114,14 +114,13 @@
 			<version>1.1.1</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.mchange</groupId>
-			<artifactId>c3p0</artifactId>
-			<version>0.9.5.2</version>
-=======
-			<artifactId>spring-context</artifactId>
-			<version>5.2.9.RELEASE</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.mchange</groupId> -->
+<!-- 			<artifactId>c3p0</artifactId> -->
+<!-- 			<version>0.9.5.2</version> -->
+<!-- 			<artifactId>spring-context</artifactId> -->
+<!-- 			<version>5.2.9.RELEASE</version> -->
+<!-- 		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -145,7 +144,7 @@
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
 			<version>1.2</version>
->>>>>>> 3175e3797b2ecc0652f4a0d26c597458c860cecd
+<!-- >>>>>>> 3175e3797b2ecc0652f4a0d26c597458c860cecd -->
 		</dependency>
 	</dependencies>
 	<build>
