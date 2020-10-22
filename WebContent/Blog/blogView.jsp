@@ -49,7 +49,7 @@
 // 		$(this).attr({"data-toggle":"modal","data-target":"#exampleModalCenter"}); 
 		var cn = $(this).data("index");
 		console.log("cn"+cn);
-		if (confirm("確定刪除此文章 ? ") ) {
+		if (confirm("確定刪除此文章 ??? ") ) {
 		document.forms[0].action="<c:url value='BlogController?cn=" + cn +"&handler=deleteBlog ' />" ;
 		document.forms[0].method="POST";
 		document.forms[0].submit();
