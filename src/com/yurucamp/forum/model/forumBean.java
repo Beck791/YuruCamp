@@ -1,4 +1,4 @@
-package com.yurucamp.forum;
+package com.yurucamp.forum.model;
 
 public class forumBean {
 
