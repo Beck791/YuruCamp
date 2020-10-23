@@ -12,8 +12,8 @@
 		<spring.version>5.2.9.RELEASE</spring.version>
 		<hibernate.version>5.4.10.Final</hibernate.version>
 	</properties>
-	
-	
+
+
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -70,11 +70,10 @@
 
 		<dependency>
 			<groupId>org.springframework</groupId>
-<<<<<<< HEAD
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.mail</groupId>
 			<artifactId>mail</artifactId>
@@ -92,7 +91,7 @@
 			<artifactId>mssql-jdbc</artifactId>
 			<version>6.4.0.jre8</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
@@ -118,7 +117,10 @@
 			<groupId>com.mchange</groupId>
 			<artifactId>c3p0</artifactId>
 			<version>0.9.5.2</version>
-=======
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>5.2.9.RELEASE</version>
 		</dependency>
@@ -134,7 +136,7 @@
 			<artifactId>spring-core</artifactId>
 			<version>5.2.9.RELEASE</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-expression</artifactId>
@@ -145,7 +147,7 @@
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
 			<version>1.2</version>
->>>>>>> 3175e3797b2ecc0652f4a0d26c597458c860cecd
+
 		</dependency>
 	</dependencies>
 	<build>
