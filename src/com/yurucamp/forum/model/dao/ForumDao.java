@@ -1,4 +1,4 @@
-package com.yurucamp.forum.dao.impl;
+package com.yurucamp.forum.model.dao;
 
 public class ForumDao {
 

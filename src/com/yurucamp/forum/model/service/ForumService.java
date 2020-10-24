@@ -1,4 +1,4 @@
-package com.yurucamp.forum.service.impl;
+package com.yurucamp.forum.model.service;
 
 public class ForumService {
 
