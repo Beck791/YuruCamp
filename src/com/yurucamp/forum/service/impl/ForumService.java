@@ -1,8 +1,8 @@
 package com.yurucamp.forum.service.impl;
 
-public class forumService {
+public class ForumService {
 
-	public forumService() {
+	public ForumService() {
 		// TODO Auto-generated constructor stub
 	}
 

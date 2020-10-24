@@ -1,8 +1,8 @@
 package com.yurucamp.forum.dao.impl;
 
-public class forumDao {
+public class ForumDaoImpl {
 
-	public forumDao() {
+	public ForumDaoImpl() {
 		// TODO Auto-generated constructor stub
 	}
 

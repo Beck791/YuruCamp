@@ -1,8 +1,8 @@
 package com.yurucamp.forum.controller;
 
-public class forunController {
+public class ForunController {
 
-	public forunController() {
+	public ForunController() {
 		// TODO Auto-generated constructor stub
 	}
 
