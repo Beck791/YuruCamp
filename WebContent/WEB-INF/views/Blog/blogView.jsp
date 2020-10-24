@@ -24,7 +24,7 @@
       <tr style="text-align:center">
     	<th>修改</th>
     	<th>刪除</th>
-        <th>內容</th>
+        <th>內容1</th>
       </tr>
     </thead>
     <tbody>
