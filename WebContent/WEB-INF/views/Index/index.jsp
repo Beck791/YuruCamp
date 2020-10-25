@@ -3,27 +3,25 @@
     <%@ taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>${index}</title>
 
- <meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Yurucamp_index</title>
-    <link rel="icon" href="/img/fav.png" type="image/x-icon">
-
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+	
     <!-- Bootstrap -->
-    <link href="/WebContent\WEB-INF\views\Index\css\bootstrap.min.css" rel="stylesheet">
-    <link href="/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- main css -->
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 
     <!-- modernizr -->
-    <script src="/js/modernizr.js"></script>
+    <script src="js/modernizr.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,11 +29,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-
 </head>
+
 <body>
-  <!-- Preloader -->
+
+    <!-- Preloader -->
     <div id="preloader">
         <div class="pre-container">
             <div class="spinner">
@@ -71,7 +69,7 @@
                 <li><a href="services.html">露營場地</a></li>
                 <li><a href="portfolio.html">露營車租借</a></li>
 				<li><a href="portfolio.html">露營論壇文章</a></li>
-				<li><a href="portfolio.html">BLOG</a></li>
+				<li><a href="/YURUcamp/Blog/Index">BLOG</a></li>
                 <li><a href="contact.html">contact me</a></li>
 
 
@@ -319,9 +317,6 @@
         ga('create', 'UA-76796224-1', 'auto');
         ga('send', 'pageview');
     </script>
-
-
-
-
+    
 </body>
 </html>
