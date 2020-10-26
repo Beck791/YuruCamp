@@ -22,7 +22,7 @@
         <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="index.html"><img src="<%= request.getContextPath()%>/img/logo.png" width="80" alt="Logo"></a>
+                <a href="index.html"><img src="<%= request.getContextPath()%>/img/yuruLogo.png" width="150" alt="Logo"></a>
             </div>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
