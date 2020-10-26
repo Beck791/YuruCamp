@@ -40,12 +40,13 @@
             <div class="table-cell">
                 <h1 class="box-headline letters rotate-2">
                     <span class="box-words-wrapper">
-                        <b class="is-visible">design.</b>
-                        <b>&nbsp;coding.</b>
-                        <b>graphic.</b>
+                        <b class="is-visible">yuru.</b>
+<!--                         <b>&nbsp;coding.</b> -->
+                        <b>camp</b>
+                        <b>キャンプ</b>
                     </span>
 		        </h1>
-                <h5>everything you need to build your personal portfolio</h5>
+                <h5>everything you need to enjoy your personal travel</h5>
             </div>
 
             <div class="mouse">
@@ -228,7 +229,7 @@
     <!-- footer -->
     <footer>
         <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
+            <p class="copyright">© Yuru Camp 2020</p>
         </div>
     </footer>
     <!-- end footer -->
