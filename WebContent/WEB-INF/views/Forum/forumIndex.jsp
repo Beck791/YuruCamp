@@ -76,8 +76,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mockups in seconds</span>
-                                        <em>Fashion / Logo</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -92,8 +92,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Floating mockups</span>
-                                        <em>Ads / Graphics</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -108,8 +108,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Photorealistic smartwatch</span>
-                                        <em>Photography</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -124,8 +124,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Held by hands</span>
-                                        <em>Fashion / Ads</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -140,8 +140,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -156,8 +156,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Photorealistic smartwatch</span>
-                                        <em>Photography</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -172,8 +172,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -188,8 +188,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
@@ -204,8 +204,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <span>$.{.}.</span>
+                                        <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
