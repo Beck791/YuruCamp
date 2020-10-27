@@ -905,8 +905,10 @@ background: rgba(202, 203, 101, 0.8);  /*#cacb65*/
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+/*       background: -webkit-linear-gradient( rgba(255, 255, 255, .7), rgba(255, 255, 255, .8)), url(../img/01.jpg); */
+/*     background: linear-gradient( rgba(255, 255, 255, .7), rgba(255, 255, 255, .8)), url(../img/01.jpg); */
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .7), rgba(255, 255, 255, .8)), url(../img/camp_15_1.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .7), rgba(255, 255, 255, .8)), url(../img/camp_15_1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -918,6 +920,7 @@ background: rgba(202, 203, 101, 0.8);  /*#cacb65*/
     text-transform: uppercase;
     font-weight: 700;
     color: #999;
+/* 		color:#dbcf83; */
     line-height: 50px;
 }
 
