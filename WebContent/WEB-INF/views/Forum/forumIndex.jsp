@@ -230,7 +230,7 @@
 <!-- footer -->
     <footer>
         <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
+            <p class="copyright">© Yuru Camp 2020</p>
         </div>
     </footer>
     <!-- end footer -->

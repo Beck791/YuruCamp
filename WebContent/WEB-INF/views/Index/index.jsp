@@ -42,8 +42,8 @@
                     <span class="box-words-wrapper">
                         <b class="is-visible">yuru.</b>
 <!--                         <b>&nbsp;coding.</b> -->
-                        <b>camp</b>
-<!--                         <b>キャンプ</b> -->
+                        <b style="text-align:center" >&nbsp;&nbsp;camp</b>
+                        <b>キャンプ</b>
                     </span>
 		        </h1>
                 <h5>everything you need to enjoy your personal travel</h5>
