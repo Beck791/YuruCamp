@@ -4,6 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <title>YURU.camp</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- //匯入bootstrap -->
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<!-- //匯入icon -->
 </head>
 <body>
 
@@ -31,6 +35,10 @@
 <!--             <a class="glyphicon glyphicon-user" href="#0"> -->
 <!--                 <span class="box-menu-text">member</span><span class="box-menu-icon"></span> -->
 <!--             </a> -->
+            <a href="" class="box-primary-nav-trigger" style="float:right;margin-right:35px;">
+<span class="box-menu-text"><i class='fas fa-user-circle' style='font-size:24px'></i></span>
+</a>
+            
             
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
@@ -52,8 +60,8 @@
 				<li><a href="/YURUcamp/Forum/forumIndex">露營論壇文章</a></li>
 				<li><a href="/YURUcamp/Blog/Index">BLOG</a></li>
 
-                <li class="box-label">會員系統</li>
-				<li><a class="glyphicon glyphicon-user" href="about.html">會員中心</a></li>
+<!--                 <li class="box-label">會員系統</li> -->
+<!-- 				<li><a class="glyphicon glyphicon-user" href="about.html">會員中心</a></li> -->
                 <li class="box-social"><a href="https://www.facebook.com/YURUCAMPFAVORITE"><i class="ion-social-facebook"></i></a></li>
                 <li class="box-social"><a href="https://www.instagram.com/YURU_CAMPFAVORITE/"><i class="ion-social-instagram-outline"></i></a></li>
                 <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
