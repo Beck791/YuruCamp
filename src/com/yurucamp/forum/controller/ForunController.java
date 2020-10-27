@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ForunController {
 	
 	@GetMapping("/Index")
-	public String blogIndex() {
+	public String forumIndex() {
 		return "Forum/forumIndex";
 	}
 	
