@@ -61,8 +61,8 @@
                 <li><a href="/YURUcamp/CampSite/campSiteIndex">露營營地</a><i class="ion-ios-circle-filled color"></i></li>
                 <li><a href="/YURUcamp/Product/productIndex">露營商城</a></li>
                 <li><a href="/YURUcamp/Car/carIndex">露營車租借</a></li>
-				<li><a href="/YURUcamp/Forum/forumIndex">露營論壇文章</a></li>
-				<li><a href="/YURUcamp/Blog/Index">BLOG</a></li>
+				<li><a href="/YURUcamp/Forum/forumIndex">露營論壇</a></li>
+<!-- 				<li><a href="/YURUcamp/Blog/Index">BLOG</a></li> -->
 
 <!--                 <li class="box-label">會員系統</li> -->
 <!-- 				<li><a class="glyphicon glyphicon-user" href="about.html">會員中心</a></li> -->
