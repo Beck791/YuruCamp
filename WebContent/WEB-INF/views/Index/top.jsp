@@ -54,7 +54,7 @@
 
                 <li class="box-label">會員系統</li>
 				<li><a class="glyphicon glyphicon-user" href="about.html">會員中心</a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="https://www.facebook.com/YURUCAMPFAVORITE"><i class="ion-social-facebook"></i></a></li>
                 <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
                 <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
                 <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
