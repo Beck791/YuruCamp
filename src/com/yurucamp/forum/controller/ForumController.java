@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/Forum")
-public class ForunController {
+public class ForumController {
 	
 	@GetMapping("/Index")
 	public String forumIndex() {
