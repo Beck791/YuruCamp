@@ -9,9 +9,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- //匯入jQuery -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 <!-- //匯入bootstrap javascript -->
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <!-- //匯入icon -->
+ 
 </head>
 <body>
 
@@ -40,8 +43,8 @@
 <!--                 <span class="box-menu-text">member</span><span class="box-menu-icon"></span> -->
 <!--             </a> -->
             <a href="" class="box-primary-nav-trigger" style="float:right;margin-right:35px;">
-<span class="box-menu-text"><i class='fas fa-user-circle' style='font-size:24px'></i></span>
-</a>
+			<span class="box-menu-text"><i class='fas fa-user-circle' style='font-size:24px'></i></span>
+			</a>
             
             
             <a class="box-primary-nav-trigger" href="#0">
