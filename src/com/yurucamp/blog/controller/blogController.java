@@ -13,4 +13,9 @@ public class blogController {
 		return "Blog/blogIndex";
 	}
 	
+	@GetMapping("/Backstage")
+	public String backstageIndex() {
+		return "Backstage/index";
+	}
+	
 }
