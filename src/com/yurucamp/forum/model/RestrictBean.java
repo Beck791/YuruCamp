@@ -10,46 +10,46 @@ public class RestrictBean {
 
 //	版主動作
 	
-	private	interger freID;
-	private	datetime memberId;
-	private	datetime poId;
-	private	string alert;
-	private	string noReact;
-	private	string noRead;
-	public interger getFreID() {
+	private	Integer freID;
+	private	String memberId;
+	private	String poId;
+	private	String alert;
+	private	String noReact;
+	private	String noRead;
+	public Integer getFreID() {
 		return freID;
 	}
-	public void setFreID(interger freID) {
+	public void setFreID(Integer freID) {
 		this.freID = freID;
 	}
-	public datetime getMemberId() {
+	public String getMemberId() {
 		return memberId;
 	}
-	public void setMemberId(datetime memberId) {
+	public void setMemberId(String memberId) {
 		this.memberId = memberId;
 	}
-	public datetime getPoId() {
+	public String getPoId() {
 		return poId;
 	}
-	public void setPoId(datetime poId) {
+	public void setPoId(String poId) {
 		this.poId = poId;
 	}
-	public string getAlert() {
+	public String getAlert() {
 		return alert;
 	}
-	public void setAlert(string alert) {
+	public void setAlert(String alert) {
 		this.alert = alert;
 	}
-	public string getNoReact() {
+	public String getNoReact() {
 		return noReact;
 	}
-	public void setNoReact(string noReact) {
+	public void setNoReact(String noReact) {
 		this.noReact = noReact;
 	}
-	public string getNoRead() {
+	public String getNoRead() {
 		return noRead;
 	}
-	public void setNoRead(string noRead) {
+	public void setNoRead(String noRead) {
 		this.noRead = noRead;
 	}
 	

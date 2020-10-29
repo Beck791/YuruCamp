@@ -10,53 +10,53 @@ public class PostBean {
 	
 //	發文文章	
 	
-	private interger poId;
-	private string memberId;
-	private string poTitle;
-	private datetime poCreatTime;
-	private datetime poUpdateTime;
-	private string poContent;
-	private string poImage;
-	public interger getPoId() {
+	private Integer poId;
+	private String memberId;
+	private String poTitle;
+	private String poCreatTime;
+	private String poUpString;
+	private String poContent;
+	private String poImage;
+	public Integer getPoId() {
 		return poId;
 	}
-	public void setPoId(interger poId) {
+	public void setPoId(Integer poId) {
 		this.poId = poId;
 	}
-	public string getMemberId() {
+	public String getMemberId() {
 		return memberId;
 	}
-	public void setMemberId(string memberId) {
+	public void setMemberId(String memberId) {
 		this.memberId = memberId;
 	}
-	public string getPoTitle() {
+	public String getPoTitle() {
 		return poTitle;
 	}
-	public void setPoTitle(string poTitle) {
+	public void setPoTitle(String poTitle) {
 		this.poTitle = poTitle;
 	}
-	public datetime getPoCreatTime() {
+	public String getPoCreatTime() {
 		return poCreatTime;
 	}
-	public void setPoCreatTime(datetime poCreatTime) {
+	public void setPoCreatTime(String poCreatTime) {
 		this.poCreatTime = poCreatTime;
 	}
-	public datetime getPoUpdateTime() {
-		return poUpdateTime;
+	public String getPoUpString() {
+		return poUpString;
 	}
-	public void setPoUpdateTime(datetime poUpdateTime) {
-		this.poUpdateTime = poUpdateTime;
+	public void setPoUpString(String poUpString) {
+		this.poUpString = poUpString;
 	}
-	public string getPoContent() {
+	public String getPoContent() {
 		return poContent;
 	}
-	public void setPoContent(string poContent) {
+	public void setPoContent(String poContent) {
 		this.poContent = poContent;
 	}
-	public string getPoImage() {
+	public String getPoImage() {
 		return poImage;
 	}
-	public void setPoImage(string poImage) {
+	public void setPoImage(String poImage) {
 		this.poImage = poImage;
 	}
 

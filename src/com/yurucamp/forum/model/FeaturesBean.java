@@ -12,27 +12,27 @@ public class FeaturesBean {
 	
 //	文章功能
 	
-	private	interger likeNumber;
-	private	interger reContentNumber;
-	private	interger clickNumber;
+	private	Integer likeNumber;
+	private	Integer reContentNumber;
+	private	Integer clickNumber;
 	
 	
-	public interger getLikeNumber() {
+	public Integer getLikeNumber() {
 		return likeNumber;
 	}
-	public void setLikeNumber(interger likeNumber) {
+	public void setLikeNumber(Integer likeNumber) {
 		this.likeNumber = likeNumber;
 	}
-	public interger getReContentNumber() {
+	public Integer getReContentNumber() {
 		return reContentNumber;
 	}
-	public void setReContentNumber(interger reContentNumber) {
+	public void setReContentNumber(Integer reContentNumber) {
 		this.reContentNumber = reContentNumber;
 	}
-	public interger getClickNumber() {
+	public Integer getClickNumber() {
 		return clickNumber;
 	}
-	public void setClickNumber(interger clickNumber) {
+	public void setClickNumber(Integer clickNumber) {
 		this.clickNumber = clickNumber;
 	}
 

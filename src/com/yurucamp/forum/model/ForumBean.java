@@ -11,28 +11,28 @@ public class ForumBean {
 	
 //	論壇
 	
-	private	interger id;
-	private	string name;
-	private	string Image;
+	private	Integer id;
+	private	String name;
+	private	String Image;
 	
 	
 	
-	public interger getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(interger id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
-	public string getName() {
+	public String getName() {
 		return name;
 	}
-	public void setName(string name) {
+	public void setName(String name) {
 		this.name = name;
 	}
-	public string getImage() {
+	public String getImage() {
 		return Image;
 	}
-	public void setImage(string image) {
+	public void setImage(String image) {
 		Image = image;
 	}
 	

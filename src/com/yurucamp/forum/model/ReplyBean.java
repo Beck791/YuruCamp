@@ -10,39 +10,39 @@ public class ReplyBean {
 
 //	回覆文章
 	
-	private	interger reId;
-	private	datetime reCreatTime;
-	private	datetime reUpdateTime;
-	private	string reContent;
-	private	string reImage;
-	public interger getReId() {
+	private	Integer reId;
+	private	String reCreatTime;
+	private	String reUpString;
+	private	String reContent;
+	private	String reImage;
+	public Integer getReId() {
 		return reId;
 	}
-	public void setReId(interger reId) {
+	public void setReId(Integer reId) {
 		this.reId = reId;
 	}
-	public datetime getReCreatTime() {
+	public String getReCreatTime() {
 		return reCreatTime;
 	}
-	public void setReCreatTime(datetime reCreatTime) {
+	public void setReCreatTime(String reCreatTime) {
 		this.reCreatTime = reCreatTime;
 	}
-	public datetime getReUpdateTime() {
-		return reUpdateTime;
+	public String getReUpString() {
+		return reUpString;
 	}
-	public void setReUpdateTime(datetime reUpdateTime) {
-		this.reUpdateTime = reUpdateTime;
+	public void setReUpString(String reUpString) {
+		this.reUpString = reUpString;
 	}
-	public string getReContent() {
+	public String getReContent() {
 		return reContent;
 	}
-	public void setReContent(string reContent) {
+	public void setReContent(String reContent) {
 		this.reContent = reContent;
 	}
-	public string getReImage() {
+	public String getReImage() {
 		return reImage;
 	}
-	public void setReImage(string reImage) {
+	public void setReImage(String reImage) {
 		this.reImage = reImage;
 	}
 	
