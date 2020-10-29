@@ -1,5 +1,7 @@
 package com.yurucamp.forum.model;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -13,10 +15,15 @@ public class PostBean {
 	private Integer poId;
 	private String memberId;
 	private String poTitle;
-	private String poCreatTime;
-	private String poUpString;
+	private Date poCreatTime;
+	private Date poUpDateTime;
 	private String poContent;
 	private String poImage;
+	
+	
+	
+	
+	
 	public Integer getPoId() {
 		return poId;
 	}
@@ -35,17 +42,17 @@ public class PostBean {
 	public void setPoTitle(String poTitle) {
 		this.poTitle = poTitle;
 	}
-	public String getPoCreatTime() {
+	public Date getPoCreatTime() {
 		return poCreatTime;
 	}
-	public void setPoCreatTime(String poCreatTime) {
+	public void setPoCreatTime(Date poCreatTime) {
 		this.poCreatTime = poCreatTime;
 	}
-	public String getPoUpString() {
-		return poUpString;
+	public Date getPoUpDateTime() {
+		return poUpDateTime;
 	}
-	public void setPoUpString(String poUpString) {
-		this.poUpString = poUpString;
+	public void setPoUpDateTime(Date poUpDateTime) {
+		this.poUpDateTime = poUpDateTime;
 	}
 	public String getPoContent() {
 		return poContent;
@@ -59,7 +66,7 @@ public class PostBean {
 	public void setPoImage(String poImage) {
 		this.poImage = poImage;
 	}
-
+	
 	
 	
 	

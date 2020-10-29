@@ -10,17 +10,21 @@ public class RestrictBean {
 
 //	版主動作
 	
-	private	Integer freID;
+	private	Integer freId;
 	private	String memberId;
 	private	String poId;
 	private	String alert;
 	private	String noReact;
 	private	String noRead;
-	public Integer getFreID() {
-		return freID;
+	
+	
+	
+	
+	public Integer getFreId() {
+		return freId;
 	}
-	public void setFreID(Integer freID) {
-		this.freID = freID;
+	public void setFreId(Integer freId) {
+		this.freId = freId;
 	}
 	public String getMemberId() {
 		return memberId;
@@ -53,5 +57,8 @@ public class RestrictBean {
 		this.noRead = noRead;
 	}
 	
-
+	
+	
+	
+	
 }

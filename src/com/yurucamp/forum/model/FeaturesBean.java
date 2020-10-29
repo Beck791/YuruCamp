@@ -17,6 +17,9 @@ public class FeaturesBean {
 	private	Integer clickNumber;
 	
 	
+	
+	
+	
 	public Integer getLikeNumber() {
 		return likeNumber;
 	}
@@ -35,7 +38,8 @@ public class FeaturesBean {
 	public void setClickNumber(Integer clickNumber) {
 		this.clickNumber = clickNumber;
 	}
-
+	
+	
 	
 	
 	

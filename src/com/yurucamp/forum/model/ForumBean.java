@@ -17,6 +17,8 @@ public class ForumBean {
 	
 	
 	
+	
+	
 	public Integer getId() {
 		return id;
 	}
@@ -36,7 +38,8 @@ public class ForumBean {
 		Image = image;
 	}
 	
-
+	
+	
 	
 
 

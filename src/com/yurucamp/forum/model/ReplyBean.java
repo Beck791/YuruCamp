@@ -1,5 +1,7 @@
 package com.yurucamp.forum.model;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -11,27 +13,39 @@ public class ReplyBean {
 //	回覆文章
 	
 	private	Integer reId;
-	private	String reCreatTime;
-	private	String reUpString;
+	private String memberId;
+	private	Date reCreatTime;
+	private	Date reUpDateTime;
 	private	String reContent;
 	private	String reImage;
+	
+	
+	
+	
+	
 	public Integer getReId() {
 		return reId;
 	}
 	public void setReId(Integer reId) {
 		this.reId = reId;
 	}
-	public String getReCreatTime() {
+	public String getMemberId() {
+		return memberId;
+	}
+	public void setMemberId(String memberId) {
+		this.memberId = memberId;
+	}
+	public Date getReCreatTime() {
 		return reCreatTime;
 	}
-	public void setReCreatTime(String reCreatTime) {
+	public void setReCreatTime(Date reCreatTime) {
 		this.reCreatTime = reCreatTime;
 	}
-	public String getReUpString() {
-		return reUpString;
+	public Date getReUpDateTime() {
+		return reUpDateTime;
 	}
-	public void setReUpString(String reUpString) {
-		this.reUpString = reUpString;
+	public void setReUpDateTime(Date reUpDateTime) {
+		this.reUpDateTime = reUpDateTime;
 	}
 	public String getReContent() {
 		return reContent;
@@ -45,6 +59,11 @@ public class ReplyBean {
 	public void setReImage(String reImage) {
 		this.reImage = reImage;
 	}
+	
+	
+	
+	
+	
 	
 	
 	
