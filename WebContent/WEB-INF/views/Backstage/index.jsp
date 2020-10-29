@@ -27,7 +27,7 @@
                             <li><a href="dashboard-sales.html" class="sf-dashboard">Dashboard</a></li>
                             <li><a href="components-text.html" class="sf-brick">Components</a></li>
                             <li class="cm-submenu">
-                                <a class="sf-window-layout">Navbar layouts <span class="caret"></span></a>
+                                <a class="sf-window-layout">Navbar aaa layouts <span class="caret"></span></a>
                                 <ul>
                                     <li><a href="layouts-breadcrumb1.html">1st nav breadcrumb</a></li>
                                     <li><a href="layouts-breadcrumb2.html">2nd nav breadcrumb</a></li>
