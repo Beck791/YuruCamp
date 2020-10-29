@@ -127,12 +127,7 @@
 <script>
 
 	$("#icon").click(function(){
-		$("nav").hide();
 		$("#menu").click();
-	});
-	
-	$("#menu").click(function(){
-		$("nav").show();
 	});
 	
 </script>
