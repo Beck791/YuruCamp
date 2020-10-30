@@ -745,7 +745,8 @@ b i:last-child {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .8);
+/*     background-color: rgba(0, 0, 0, .8); */
+     background-color: rgba(0, 0, 0, .3); /*調整hover底色*/
     -webkit-transform: translate(-100%);
     transform: translate(-100%);
     opacity: 0;

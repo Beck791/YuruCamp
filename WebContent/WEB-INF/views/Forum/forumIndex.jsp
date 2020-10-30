@@ -57,11 +57,11 @@
                     <nav class="categories text-center">
                         <ul class="portfolio_filter">
                             <li><a href="" class="active" data-filter="*">All</a></li>
-                            <li><a href="" data-filter=".photography">露營心得</a></li>
-                            <li><a href="" data-filter=".logo">露營裝備</a></li>
-                            <li><a href="" data-filter=".graphics">露營料理</a></li>
-                            <li><a href="" data-filter=".ads">露營交通設備</a></li>
-                            <li><a href="" data-filter=".fashion">露營小撇步</a></li>
+                            <li><a href="" data-filter=".new">最新文章</a></li>
+                            <li><a href="" data-filter=".hot">最熱門文章</a></li>
+                            <li><a href="" data-filter=".product">露營裝備</a></li>
+                            <li><a href="" data-filter=".cooking">露營料理</a></li>
+                            <li><a href="" data-filter=".location">露營地點</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -70,148 +70,180 @@
                 <!-- portfolio_container -->
 				<div class="no-padding portfolio_container clearfix">
                     <!-- single work -->
-                    <div class="col-md-4 col-sm-6  fashion logo">
-                        <a href="../single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/01.jpg" alt="image" class="img-responsive" />
-                            <div class="portfolio_item_hover">
-                                <div class="portfolio-border clearfix">
-                                    <div class="item_info">
-                                        <span>$.{.}.</span>
-                                        <em>$.{.}.</em>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-6 ads graphics">
-                        <a href="../single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/03.jpg" alt="image" class="img-responsive" />
-                            <div class="portfolio_item_hover">
-                                <div class="portfolio-border clearfix">
-                                    <div class="item_info">
-                                        <span>$.{.}.</span>
-                                        <em>$.{.}.</em>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-12 photography">
-                        <a href="single-project.html" class="portfolio_item">
+                    <div class="col-md-4 col-sm-10 new"  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
                             <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
 
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-6 fashion ads">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/04.jpg" alt="image" class="img-responsive" />
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-6 graphics ads">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/05.jpg" alt="image" class="img-responsive" />
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-12 photography">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/010.jpg" alt="image" class="img-responsive" />
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-6 graphics ads">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/06.jpg" alt="image" class="img-responsive" />
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-6 graphics ads">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/07.jpg" alt="image" class="img-responsive" />
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
-
-                    <!-- single work -->
-                    <div class="col-md-4 col-sm-6 graphics ads">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="../img/portfolio/08.jpg" alt="image" class="img-responsive" />
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>$.{.}.</span>
+                                        <form action=""><span>$.{.}.</span></form>
                                         <em>$.{.}.</em>
                                     </div>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                     <!-- end single work -->
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <form action=""><span>$.{.}.</span></form>
+                                        <em>$.{.}.</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                    <!-- end single work -->
+                      <!-- single work -->
+                    <div class="col-md-4 col-sm-10 "  style="background-color:#dbcf83">
+                        <a href="#0" class="portfolio_item">
+                            <img src="../img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <form action=""><span>$.{.}.</span></form>
+                                        <em>$.{.}.</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                    <!-- end single work -->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 
                 </div>
                 <!-- end portfolio_container -->
