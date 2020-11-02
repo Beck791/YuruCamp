@@ -8,9 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/Forum")
 public class ForumController {
 	
-	@GetMapping("/Index")
+	@GetMapping("/forumIndex")
 	public String forumIndex() {
 		return "Forum/forumIndex";
+	}
+	
+	
+	@GetMapping("/forumIndex")
+	public String memberCreat() {
+		return "Forum/memberCreat";
 	}
 	
 }

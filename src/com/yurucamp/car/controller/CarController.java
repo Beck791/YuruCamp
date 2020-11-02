@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/Car")
 public class CarController {
 
-	@GetMapping("/Index")
+	@GetMapping("/carIndex")
 	public String carIndex() {
 		return "Car/carIndex";
 	}
