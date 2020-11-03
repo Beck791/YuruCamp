@@ -5,21 +5,21 @@
  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/bootstrap-clearmin.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/roboto.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/material-design.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/small-n-flat.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/summernote.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap-clearmin.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/roboto.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/material-design.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/small-n-flat.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/summernote.css">
     
-	<script src="${pageContext.request.contextPath}/assets/js/lib/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/jquery.mousewheel.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/jquery.cookie.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/fastclick.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/bootstrap.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/clearmin.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/summernote.min.js"></script>
-    <script src="${pageContext.request.contextPath}/assets/js/demo/notepad.js"></script>
+	<script src="${pageContext.request.contextPath}/js/lib/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.mousewheel.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.cookie.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/fastclick.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/clearmin.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/summernote.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/demo/notepad.js"></script>
     
     <title>露營後台</title>
 </head>
