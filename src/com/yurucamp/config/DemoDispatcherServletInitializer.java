@@ -9,7 +9,7 @@ public class DemoDispatcherServletInitializer extends AbstractAnnotationConfigDi
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return null;
+		return new Class[]{RootAppConfig.class};
 	}
 
 	@Override
