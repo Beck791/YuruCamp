@@ -8,17 +8,17 @@
 </head>
 <body>
 	 <div id="cm-menu">
-            <nav class="cm-navbar cm-navbar-primary">
+            <nav class="cm-navbar cm-navbar-warning">
                 <div class="cm-flex"><a href="/YURUcamp/Backstage/index" class="cm-logo"></a></div>
-                <div class="btn btn-primary md-menu-white" data-toggle="cm-menu"></div>
+                <div class="btn md-menu-white btn-warning" data-toggle="cm-menu"></div>
             </nav>
             <div id="cm-menu-content">
                 <div id="cm-menu-items-wrapper">
                     <div id="cm-menu-scroller">
                         <ul class="cm-menu-items">
-                            <li class="active"><a href="index.html" class="sf-house">Home</a></li>
+                            <li class="active"><a href="/YURUcamp/Backstage/index" class="sf-house">Home</a></li>
                             <li><a href="/YURUcamp/Backstage/member" class="sf-user-id">會員系統</a></li>
-                            <li><a href="components-text.html" class="md-landscape">營地系統</a></li>
+                            <li><a href="/YURUcamp/Backstage/camp" class="md-landscape">營地系統</a></li>
                             <li class="cm-submenu">
                                 <a class="md-directions-car">露營車系統<span class="caret"></span></a>
                                 <ul>
@@ -42,8 +42,8 @@
             </div>
         </div>
         <header id="cm-header">
-            <nav class="cm-navbar cm-navbar-primary">
-                <div class="btn btn-primary md-menu-white hidden-md hidden-lg" data-toggle="cm-menu"></div>
+            <nav class="cm-navbar cm-navbar-warning">
+                <div class="btn md-menu-white hidden-md hidden-lg btn-warning" data-toggle="cm-menu"></div>
                 <div class="cm-flex">
                     <h1>Home</h1> 
                     <form id="cm-search" action="index.html" method="get">
@@ -51,10 +51,10 @@
                     </form>
                 </div>
                 <div class="pull-right">
-                    <div id="cm-search-btn" class="btn btn-primary md-search-white" data-toggle="cm-search"></div>
+                    <div id="cm-search-btn" class="btn md-search-white btn-warning" data-toggle="cm-search"></div>
                 </div>
                 <div class="dropdown pull-right">
-                    <button class="btn btn-primary md-notifications-white" data-toggle="dropdown"> 
+                    <button class="btn md-notifications-white btn-warning" data-toggle="dropdown"> 
                     <span class="label label-danger">23</span> </button>
                     <div class="popover cm-popover bottom">
                         <div class="arrow"></div>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="dropdown pull-right">
-                    <button class="btn btn-primary md-account-circle-white" data-toggle="dropdown"></button>
+                    <button class="btn md-account-circle-white btn-warning" data-toggle="dropdown"></button>
                     <ul class="dropdown-menu">
                         <li class="disabled text-center">
                             <a style="cursor:default;"><strong>John Smith</strong></a>

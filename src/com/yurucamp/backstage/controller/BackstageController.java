@@ -12,7 +12,7 @@ import com.yurucamp.backstage.service.BackstageService;
 
 @Controller
 @RequestMapping("/Backstage")
-public class backstageController {
+public class BackstageController {
 	
 	@Autowired
 	BackstageService backstageService;
@@ -24,7 +24,12 @@ public class backstageController {
 	
 	@GetMapping("/member")
 	public String backstageMemberIndex() {
-		return "Backstage/index";
+		return "Backstage/member";
+	}
+	
+	@GetMapping("/camp")
+	public String backstageCampIndex() {
+		return "Backstage/camp";
 	}
 	
 	@GetMapping("/forum")

@@ -16,7 +16,9 @@ public class BackstageDao {
 	
 	@Autowired
 	SessionFactory factory;
-
+	
+	
+	@SuppressWarnings("unchecked")
 	public List<Test> getAllProducts() {
 		String hql = "FROM Test";
 		Session session = null;
