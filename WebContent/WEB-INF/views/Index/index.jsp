@@ -15,9 +15,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-
+	
     <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<c:url value="/css/style.css" />" rel="stylesheet">
 
 
     <!-- modernizr -->
