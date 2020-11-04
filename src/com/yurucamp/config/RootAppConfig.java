@@ -1,38 +1,40 @@
 package com.yurucamp.config;
 
-import java.beans.PropertyVetoException;
 import java.util.Properties;
 
+import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jndi.JndiObjectFactoryBean;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-
-import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 @Configuration
 @EnableTransactionManagement
 public class RootAppConfig {
 	  @Bean
 	    public DataSource dataSource() {
-	        ComboPooledDataSource ds = new ComboPooledDataSource();
-	        ds.setUser("sa");
-	        ds.setPassword("passw0rd");
-	        try {
-	            ds.setDriverClass("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-	        } catch (PropertyVetoException e) {
-	            e.printStackTrace();
-	        }
-	        ds.setJdbcUrl("jdbc:sqlserver://localhost:1433;databaseName=YuruCamp");
-	        ds.setInitialPoolSize(4);
-	        ds.setMaxPoolSize(8);
-	        return ds;
+			JndiObjectFactoryBean factory = new JndiObjectFactoryBean();
+			factory.setJndiName("java:comp/env/jdbc/Yurucamp");
+			factory.setProxyInterface(DataSource.class);
+			try {
+
+				// look up context JNDI object
+				factory.afterPropertiesSet();
+			} catch (IllegalArgumentException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (NamingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			return (DataSource) factory.getObject();
 	    }
 	    
 	    @Bean
@@ -45,6 +47,7 @@ public class RootAppConfig {
 	        factory.setHibernateProperties(additionalProperties());
 	        return factory;
 	    }
+	    
 	    @Bean(name="transactionManager")
 	    @Autowired
 	    public HibernateTransactionManager transactionManager(SessionFactory sessionFactory) {
